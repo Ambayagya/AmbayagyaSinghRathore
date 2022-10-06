@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="google-site-verification" content="hwGRSXbL7SxqxVG24WwHVK5ap2hVr4BCgtPsXD4Ge9g" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Ambayagya</title>
+    <meta name="description" content="Have an exciting project where you need some help? Contact me.">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/29889e31b7.js" crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+</head>
+
+<style>
+    html{
+    }
+    @media only screen and (max-width: 767px) and (orientation: portrait) {
+        html{
+        overflow: auto;
+    }
+    }
+   body{
+        color: white;
+    }
+   @media only screen and (max-width: 767px) and (orientation: portrait) {
+       body{
+        color: white;
+        overflow: auto;
+    }
+   }
+   .contact{
+       background-color: #111111;
+       width: 100%;
+       height: 100vh;
+   }
+   @media only screen and (max-width: 767px) and (orientation: portrait) {
+       .contact{
+           height: 130vh;
+       }
+   }
+   .contact-form{
+        width: 50%;
+        height: 100vh;
+        display: inline;
+        float: left;
+        position: relative;
+        align-items: center;
+   }
+   @media only screen and (max-width: 767px) and (orientation: portrait) {
+       .contact-form{
+            width: 100%;
+            height: 120vh;
+            display: block;
+            float: none;
+       }
+   }
+   .contact-form-wrap{
+        width: 80%;
+        height: 90%;
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%);
+   }
+   @media only screen and (max-width: 767px) and (orientation: portrait) {
+       .contact-form-wrap{
+           width: 90%;
+           position: relative;
+           top: 55%;
+           left: 50%;
+           transform: translateX(-50%) translateY(-50%);
+
+       }
+   }
+   .contact-box{
+       text-align: justify;
+       hyphens: auto;
+       width: 90%;
+       height: 90%;
+       position: absolute;
+       top:50%;
+       right: 0;
+       transform: translateY(-50%);
+       opacity: 1;
+       visibility: visible;
+       animation: fade-the-contact-box 1s linear;
+   }
+   @media only screen and (max-width: 767px) and (orientation: portrait) {
+       .contact-box{
+       width: 100%;
+       right: initial;
+       top: 45%;
+       left: 50%;
+       transform: translateX(-50%)translateY(-50%);
+   }
+   }
+   @keyframes fade-the-contact-box {
+        0% {
+            opacity: 0;
+        }
+       50%{
+           opacity: 0.30;
+       }
+        100% {
+            opacity: 1;
+        }
+   }
+   .contact-box h2 {
+       font-size: 4rem;
+       font-family: "proxima nova bold", "Helvetica Neue", Helvetica, Arial, Sans-serif, serif;
+       font-weight: bold;
+       margin: 0;
+       width: auto;
+        padding-left:1%;
+
+   }
+   @media only screen and (max-width: 767px) and (orientation: portrait) {
+       .contact-box h2 {
+           font-size: 14vw;
+       }
+   }
+   .contact-box p{
+       padding-left:1%;
+   }
+   @media only screen and (max-width: 767px) and (orientation: portrait) {
+       .contact-box p{
+           font-size: 4.5vw;
+       }
+   }
+   .contact-box form{
+       margin-top: 2.5rem;
+   }
+   .contact-box label{
+       padding-left:1%;
+       font-family: 'Montserrat', sans-serif;
+       font-weight: bold;
+       font-size: 1rem;
+       letter-spacing: 2px;
+   }
+   @media only screen and (max-width: 767px) and (orientation: portrait) {
+       .contact-box label {
+           font-size: 4vw;
+       }
+   }
+    input{
+       margin-left: 1%;
+       padding-left:1.5%;
+       padding-right:1.5%;
+       width: 90%;
+       font-family: 'Lato', sans-serif;
+       font-size: 1rem;
+       font-weight: bold;
+       height: 2rem;
+       color: rgba(255, 255, 255, 0.99);
+       background: #191919;
+       border: none;
+       border-radius: 5px;
+       letter-spacing: 1px;
+       margin-top: 0.3rem;
+   }
+    @media only screen and (max-width: 767px) and (orientation: portrait) {
+        input{
+           width: 95%;
+           font-size: 4vw;
+           font-weight: normal;
+       }
+    }
+   input:focus{
+       background: #0F2027;
+       outline: none;
+   }
+   input:-webkit-autofill{
+       -webkit-box-shadow: 0 0 0 100px rgba(21, 21, 21, 0.99) inset !important;
+       -webkit-text-fill-color: rgba(255, 255, 255, 0.99) !important;
+   }
+    input:-webkit-autofill:focus{
+            -webkit-box-shadow: 0 0 0 100px #0F2027 inset !important;
+            -webkit-text-fill-color: rgba(255, 255, 255, 0.99) !important;
+    }
+     textarea{
+       margin-left: 1%;
+       width: 91%;
+       font-family: 'Lato', sans-serif;
+       font-size: 1rem;
+       font-weight: bold;
+       height: 6rem;
+       color: rgba(255, 255, 255, 0.99);
+       background: #191919;
+       border: none;
+       border-radius: 5px;
+       letter-spacing: 1px;
+       margin-top: 0.3rem;
+       padding: 1%;
+        display: block;
+   }
+     @media only screen and (max-width: 767px) and (orientation: portrait) {
+         textarea{
+           width: 96%;
+           font-size: 4vw;
+           font-weight: normal;
+           height: 7rem;
+           padding: 1.5% 1% 1.5% 1%;
+
+       }
+     }
+
+   textarea:focus{
+       background: #0F2027;
+       outline: none;
+   }
+   .req{
+        font-family: 'Lato', sans-serif;
+       font-weight: lighter;
+        font-size: 0.9rem;
+        color: rgba(128, 128, 128, 0.5)
+    }
+   @media only screen and (max-width: 767px) and (orientation: portrait) {
+       .req{
+            font-size: 3.5vw;
+        }
+   }
+   #submit-loader{
+        position: absolute;
+        width: 1.5rem;
+        margin: 1.30rem 0 0 0;
+        left: 75%;
+        transform: translateX(-75%);
+       display: none;
+    }
+
+    .submit-btn{
+        font-family: 'Oswald', sans-serif;
+        color: rgba(255, 255, 255, 0.7);
+        font-size: 1.3rem;
+        display: block;
+        width: auto;
+        margin-top: 1rem;
+        background-color: transparent;
+        border-radius: 0;
+        padding: 0 0 2rem 0;
+        cursor: pointer;
+        border: none;
+        text-decoration: none;
+        border-bottom: 0.15rem solid #555;
+        position: relative;
+        left: 91%;
+        transform: translateX(-91%);
+    }
+    @media only screen and (max-width: 767px) and (orientation: portrait) {
+       .submit-btn{
+        font-size: 5vw;
+        padding: 0 0 2.5vh 0;
+        left: 98%;
+        transform: translateX(-98%);
+    }
+   }
+    .submit-btn:hover {
+        border-bottom: 0.15rem solid #ffffff;
+    }
+    .submit-btn:focus{
+       background: transparent;
+       outline: none;
+   }
+    .submit-btn:disabled{
+        color: rgba(128, 128, 128, 0.5);
+        border-bottom: 0.15rem solid rgba(128, 128, 128, 0.5);
+        cursor: not-allowed;
+    }
+
+   .contact-img{
+        width: 50%;
+        height: 100vh;
+        position: relative;
+        display: inline;
+        float: left;
+   }
+   @media only screen and (max-width: 767px) and (orientation: portrait) {
+       .contact-img{
+            width: 100%;
+            height: 50vh;
+            position: relative;
+            display: none;
+            float: none;
+       }
+   }
+   .contact-img img{
+       max-width: 60%;
+       position: absolute;
+       left: 50%;
+       bottom: 0;
+       transform: translateX(-50%);
+
+   }
+   @media only screen and (max-width: 767px) and (orientation: portrait) {
+       .contact-img img{
+       display: none;
+       position: relative;
+
+   }
+   }
+   .fade-stone-man {
+    animation: fade-stone-man 3s ease-in-out;
+    }
+   @keyframes fade-stone-man {
+        0% {
+            opacity: 0;
+            scale: 0;
+        }
+        100% {
+            opacity: 1;
+            scale: 1;
+        }
+   }
+   .thankyou_message{
+       position: relative;
+       width: 60%;
+        margin: 0.5rem 0;
+        padding: 0.5rem;
+        border-radius: 3px 3px 3px 3px;
+        color: whitesmoke;
+        background-color: rgba(197, 252, 131, 0.5);
+       text-align: center;
+       left: 40%;
+       transform: translateX(-40%);
+       display:none
+   }
+   @media only screen and (max-width: 767px) and (orientation: portrait) {
+       .thankyou_message{
+       width: 90%;
+       font-size: 4vw;
+       margin: 3vh 0;
+       left: 45%;
+       transform: translateX(-45%);
+    }
+   }
+   .error_message{
+       position: relative;
+       width: 60%;
+        margin: 1rem 0;
+        padding: 1rem;
+        border-radius: 3px 3px 3px 3px;
+        color: whitesmoke;
+        background-color: rgba(250, 116, 99, 0.5);
+       left: 40%;
+       transform: translateX(-40%);
+       text-align: center;
+       display:none
+   }
+   @media only screen and (max-width: 767px) and (orientation: portrait) {
+       .error_message{
+           width: 90%;
+           font-size: 4vw;
+           margin: 3vh 0;
+           left: 45%;
+           transform: translateX(-45%);
+        }
+   }
+</style>
+
+<body>
+    <div class="site-wrap">
+        <div class="navbar contact-nav" id="navbar" style="background-color:black; border-bottom: solid rgba(56, 56, 56, 0.73);
+        border-bottom-width: thin;">
+              <a href="index.html">A.</a>
+                <ul>
+                    <li><a href="https://www.instagram.com/aayuu_5/"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.facebook.com/ambayagya.singhrathore.7/"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a href="https://twitter.com/ambayagya"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/ambayagya-singh-rathore-819a21205/"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
+                </ul>
+        </div>
+      <section class="contact">
+        <div class="contact-form">
+            <div class="contact-form-wrap">
+                <div class="contact-box" lang="en">
+                    <h2>
+                        contact.
+                    </h2>
+                    <p>
+                        Have an exciting project where you need some help? Or just want to say 'Hi' to me. Fill out the form
+                        below, and I'll be in your touch soon.
+                    </p>
+                    <form id="form-submit" class="gform lineUp" method="post" onsubmit="showLoader()" action="https://script.google.com/macros/s/AKfycbyNiGFs58IC41oy-v05Di1HbxkJWg-_2faqmaYMpPp3uC7vYHxdkpShETZSh759TmOJ/exec">
+                        <label for="name">Name&nbsp;<span class="req">(Required)</span><br>
+                            <input required type="text" id="name" autocomplete="on" class="required" onkeyup="enableSubmit()" name="name" >
+                        </label>
+                        <br>
+                        <br>
+                        <label for="email">Email&nbsp;<span class="req">(Required)</span><br>
+                            <input required type="email" autocomplete="on" id="email" class="required" onkeyup="enableSubmit()" name="email">
+                        </label>
+                        <br>
+                        <br>
+                        <label>Message<br>
+                            <textarea required id="message" class="required" onkeyup="enableSubmit()" name="message"> </textarea>
+                        </label>
+                        <img id="submit-loader" src="images/submit-loader.gif" alt="submit-loader">
+                        <input id="submit-btn" class="submit-btn" type="submit" value="SUBMIT" disabled>
+                        <div class="thankyou_message" id="thankyou_message">
+                            <em>Your message was sent successfully. Thanks.</em>
+                        </div>
+                        <div class="error_message" id="error_message">
+                            <em>Oops! Something went wrong, Please try again later.</em>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="contact-img">
+            <img class="fade-stone-man" src="images/stone-man.png" alt="stone-man">
+        </div>
+      </section>
+    </div>
+
+    <div class="rotate-your-device">
+        <h3 style="color: white; font-size:1.5rem; margin:40vh 0 0 0">PLEASE ROTATE YOUR DEVICE</h3>
+        <p>We don't support landscape mode yet.<br>
+            Please go back to portrait mode for better experience.</p>
+    </div>
+
+  <script data-cfasync="false" type="text/javascript" src="js/form-submission-handler.js"></script>
+</body>
+
+
+
